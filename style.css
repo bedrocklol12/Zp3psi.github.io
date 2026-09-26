@@ -6,3 +6,11 @@ body {
   background-attachment: fixed;
   background-color: #333333; /* Fallback color */
 }
+body {
+    color: white;
+    text-align: center;
+    background-color: #222; /* Adds a dark background so you can see your white text */
+}
+a {
+    color: white;
+}
