@@ -19,6 +19,16 @@
     <br>
     <p>This page has been viewed <span id="visits">0</span> times.</p>
 
+<script>
+  function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+
+  // Replace 'yourwebsite.com' with your actual domain or a unique name
+  const script = document.createElement('script');
+  script.src = 'https://countapi.xyz';
+  document.head.appendChild(script);
+</script>
 
 </body>
 </html>
