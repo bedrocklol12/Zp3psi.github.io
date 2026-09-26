@@ -1,13 +1,12 @@
 body {
-    background-image: url('https://4kwallpapers.com');
+    background-image: url('background.jpg'); /* Must match your filename perfectly */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+    background-color: #333333; 
     
     color: white;
-    /* ADD THIS LINE BELOW TO CENTER EVERYTHING */
     text-align: center;
 }
 
