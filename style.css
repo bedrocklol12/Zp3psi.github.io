@@ -4,14 +4,13 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-color: #333333; /* Fallback color */
+    background-color: #333333; 
     
-    /* This fixes your text color and centering */
     color: white;
+    /* ADD THIS LINE BELOW TO CENTER EVERYTHING */
     text-align: center;
 }
 
-/* This forces your YouTube link to be white too */
 a {
     color: white;
 }
