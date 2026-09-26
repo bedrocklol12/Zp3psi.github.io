@@ -1,11 +1,17 @@
 body {
-  background-image: url('https://4kwallpapers.com/images/walls/thumbs_3t/27248.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #333333; /* Fallback color */
+    background-image: url('https://4kwallpapers.com');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #333333; /* Fallback color */
+    
+    /* This fixes your text color and centering */
+    color: white;
+    text-align: center;
 }
-body {
+
+/* This forces your YouTube link to be white too */
+a {
     color: white;
 }
